@@ -1,8 +1,4 @@
-```html
-<!DOCTYPE html>
-<html>
-<head>
-<style>
+```css
 /*OfficeBent CSS 0_402 */
 /*(c) NotOfficeBent Partnership */
 body {
@@ -86,8 +82,9 @@ some cute buttons, make sure to add more for new colors! ☆~~(>w0✿)b
     color: white;
     opacity: 100%
 }
-</style>
-</head>
+```
+```html
+<html>
 <body>
 <div style="display: block">
 	<span style="text-align:center"><img src=https://i.imgur.com/mLgFWcu.png id="eightyEightImg" style="width:450px" >
@@ -96,7 +93,10 @@ some cute buttons, make sure to add more for new colors! ☆~~(>w0✿)b
 	</button>
 	</span>
 </div>
-<script>
+</body>
+</html>
+```
+```javascript
 //java functions to replace an image! ☆~~(>w0✿)b
 function razFunction() {
     document.getElementById("actGrlBtn").id = "grlBtn";
@@ -108,7 +108,4 @@ function grlFunction() {
     document.getElementById("grlBtn").id = "actGrlBtn";
     document.getElementById("eightyEightImg").src = "https://i.imgur.com/OcKHHe9.png";
 }
-</script>
-</body>
-</html>
 ```
